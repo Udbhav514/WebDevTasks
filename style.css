@@ -1,0 +1,400 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+.leaderboard {
+  background-color: #656cec;
+  height: 90px;
+  text-align: center;
+  padding-top: 30px;
+}
+.leaderboardtxt {
+  font-size: 60px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+}
+.top3 {
+  background-color: #656cec;
+  height: 270px;
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.top3 .second {
+  height: 100%;
+  width: 120px;
+  margin-left: 5vw;
+  margin-right: 5vh;
+  margin-top: 30px;
+}
+.top3 .second .secondc {
+  border-radius: 60px;
+  height: 120px;
+  width: 120px;
+  border: 4px solid white;
+  margin-top: 20px;
+  background-color: #babeff;
+}
+.top3 .second .secondtxt {
+  margin-top: 14px;
+  text-align: center;
+  background-color: #babeff;
+  font-family: "Inter";
+  color: white;
+  width: 14px;
+  margin-left: 55px;
+  border-radius: 7px;
+}
+.top3 .second .secondtxtname {
+  margin-top: 14px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: #babeff;
+  font-family: "Inter";
+  color: white;
+}
+.top3 .second .secondc:hover {
+  border: 4px solid red;
+  background-color: white;
+  cursor: pointer;
+}
+.top3 .third {
+  height: 100%;
+  width: 120px;
+  margin-left: 5vw;
+  margin-right: 5vh;
+  margin-top: 30px;
+}
+.top3 .third .thirdc {
+  border-radius: 60px;
+  height: 120px;
+  width: 120px;
+  border: 4px solid white;
+  margin-top: 20px;
+  background-color: #babeff;
+}
+.top3 .third .thirdtxt {
+  margin-top: 14px;
+  text-align: center;
+  background-color: #babeff;
+  font-family: "Inter";
+  color: white;
+  width: 14px;
+  margin-left: 55px;
+  border-radius: 7px;
+}
+.top3 .third .thirdtxtname {
+  margin-top: 14px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: #babeff;
+  font-family: "Inter";
+  color: white;
+}
+.top3 .third .thirdc:hover {
+  border: 4px solid red;
+  background-color: white;
+  cursor: pointer;
+}
+
+.top3 .first {
+  height: 100%;
+  width: 150px;
+  margin-left: 5vw;
+  margin-right: 5vh;
+}
+.top3 .first .firstc {
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+  border: 4px solid white;
+  margin-top: 20px;
+  background-color: #babeff;
+}
+.top3 .first .firsttxt {
+  margin-top: 14px;
+  text-align: center;
+  background-color: #babeff;
+  font-family: "Inter";
+  color: white;
+  width: 14px;
+  margin-left: 65px;
+  border-radius: 7px;
+}
+.top3 .first .firsttxtname {
+  margin-top: 14px;
+  text-align: center;
+  border-radius: 7px;
+  background-color: #babeff;
+  font-family: "Inter";
+  color: white;
+}
+.top3 .first .firstc:hover {
+  border: 4px solid red;
+  background-color: white;
+  cursor: pointer;
+}
+.top3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.box {
+  background-color: #d2d4f2;
+  width: 100%;
+  height: 60px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.box:hover {
+  background-color: #656cec;
+  cursor: pointer;
+}
+.box p {
+  font-size: 24px;
+  line-height: 55px;
+  margin-left: 4vw;
+}
+.box .circle {
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  margin-top: 8px;
+  margin-left: 5vw;
+  background-color: #babeff;
+}
+.box .circle:hover {
+  border: 4px solid red;
+}
+.box .circle img {
+  width: 40px;
+  height: 100%;
+  border-radius: 50%;
+}
+.box .points {
+  font-size: 24px;
+  line-height: 55px;
+  margin-left: 50%;
+  margin-right: 3%;
+}
+
+.box .names {
+  font-size: 24px;
+  line-height: 55px;
+  width: 20%;
+  margin-left: 3%;
+}
+@media (max-width: 1000px) {
+  .box {
+    height: 70px;
+  }
+  .box .points {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .box .names {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 600px) {
+  /*need to vary the top 3 only*/
+  .top3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+  }
+  .top3 .first {
+    width: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+  }
+  .top3 .second {
+    width: 24%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+  }
+  .top3 .third {
+    width: 24%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 200px;
+  }
+}
